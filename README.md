@@ -20,7 +20,7 @@ It is divided into Train, Validation and Test Dataset in 90%-8%-2% (approx.) for
 
 Real:
 
-![Image in Folder](images/real_96.jpg)
+![Image in Folder](Images/real_96.jpg)
 
 Fake:
 
