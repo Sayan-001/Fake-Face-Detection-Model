@@ -1,0 +1,53 @@
+
+Model Structure and Parameters:
+
+    Model: "sequential"
+    _________________________________________________________________
+    Layer (type)                Output Shape              Param #   
+    =================================================================
+    conv2d (Conv2D)             (None, 298, 298, 64)      1792      
+                                                                    
+    max_pooling2d (MaxPooling2  (None, 149, 149, 64)      0         
+    D)                                                              
+                                                                    
+    conv2d_1 (Conv2D)           (None, 147, 147, 128)     73856     
+                                                                    
+    max_pooling2d_1 (MaxPoolin  (None, 73, 73, 128)       0         
+    g2D)                                                            
+                                                                    
+    conv2d_2 (Conv2D)           (None, 71, 71, 128)       147584    
+                                                                    
+    max_pooling2d_2 (MaxPoolin  (None, 35, 35, 128)       0         
+    g2D)                                                            
+                                                                    
+    flatten (Flatten)           (None, 156800)            0         
+                                                                    
+    dropout (Dropout)           (None, 156800)            0         
+                                                                    
+    dense (Dense)               (None, 512)               80282112  
+                                                                    
+    ...
+    Total params: 80506370 (307.11 MB)
+    Trainable params: 80506370 (307.11 MB)
+    Non-trainable params: 0 (0.00 Byte)
+
+
+
+
+Training Details (General Case):
+
+    Epoch 1/4
+    18/18 [==============================] - 597s 33s/step - loss: 1.4689 - accuracy: 0.6213 - val_loss: 0.3175 - val_accuracy: 0.9124
+    Epoch 2/4
+    18/18 [==============================] - 589s 33s/step - loss: 0.3456 - accuracy: 0.8497 - val_loss: 0.2836 - val_accuracy: 0.8759
+    Epoch 3/4
+    18/18 [==============================] - 579s 32s/step - loss: 0.2103 - accuracy: 0.9104 - val_loss: 0.0584 - val_accuracy: 0.9854
+    Epoch 4/4
+    18/18 [==============================] - 576s 32s/step - loss: 0.1300 - accuracy: 0.9543 - val_loss: 0.0277 - val_accuracy: 0.9927
+
+    Final Training Loss: 0.1300
+    Final Training Accuracy: 95.43%
+
+    Final Validation Loss: 0.0277
+    Final Validation Accuracy: 99.27%
+
