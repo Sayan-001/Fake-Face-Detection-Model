@@ -20,17 +20,17 @@ It is divided into Train, Validation and Test Dataset in 90%-8%-2% (approx.) for
 
 Real:
 
-![Image in Folder](images/image.png)
+![Image in Folder](images/real_96.jpg)
 
 Fake:
 
-![Image in Folder](images/image.png)
+![Image in Folder](Images/fake_114.jpg)
 
 ## Evaluation
 
 The model has a  general final validation accuracy of 99% and validation loss of 0.03. 💪
 
-![Image in Folder](images/image.png)
+![Image in Folder](Images/accuracy_loss_img.png)
 
 
 
