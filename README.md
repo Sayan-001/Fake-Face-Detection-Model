@@ -9,7 +9,7 @@ Fake: The person does not exist and the images are generated using the StyleGAN2
 
 The images look almost identical and indistinguishable to the human eye which makes it an extremely dificult task, but CNN can detect the slightest of changes, and give a very accurate prediction, of whether the image is 'real' or 'fake'.
 
-The is trained on the Train Dataset, and evaluated using Validation Dataset. The test Dataset is kept for the user to put and check.
+The model is trained on the Train Dataset, and evaluated using Validation Dataset. The test Dataset is kept for the user to put and check.
 
 
 ## Dataset
