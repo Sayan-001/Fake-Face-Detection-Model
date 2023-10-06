@@ -16,7 +16,7 @@ The is trained on the Train Dataset, and evaluated using Validation Dataset. The
 
 The dataset can be found here: [click here for Google Drive link](https://drive.google.com/drive/folders/15QFBLT2GHWW1nDPj6KwgGiG6auOlZe7T?usp=drive_link).
 
-It consists of closely 1200 real and fake images, with a uniform pixel dimensions of 300 x 300. 
+It consists of closely 1200 real and fake images, with uniform pixel dimensions of 300 x 300. 
 
 It is divided into Train, Validation and Test Dataset in 90%-8%-2% (approx.) format.
 
@@ -32,7 +32,7 @@ Fake:
 
 ## Evaluation
 
-The model has a  general final validation accuracy of 99% and validation loss of 0.03. 💪
+The model has a general validation accuracy of 99% and validation loss of 0.03. 💪
 
 Below is the graph of the accuracy and loss plotted against epochs (number of times the model is run).
 
