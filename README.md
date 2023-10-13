@@ -1,7 +1,7 @@
 # Fake-Face-Detection-Model
 ## Model
 
-This is a Machine Learning Model that uses Convolutional Neural Networks (CNN) to detect between real images and fake images.
+This is a Machine Learning Model that uses Convolutional Neural Networks (CNN) to detect between real images and fake images. 
 
 Real: The photo is actually taken and the person exists.
 
@@ -16,9 +16,7 @@ The model is trained on the Train Dataset, and evaluated using Validation Datase
 
 The dataset can be found here: [click here for Google Drive link](https://drive.google.com/drive/folders/15QFBLT2GHWW1nDPj6KwgGiG6auOlZe7T?usp=drive_link).
 
-It consists of closely 1200 real and fake images, with uniform pixel dimensions of 300 x 300. 
-
-It is divided into Train, Validation and Test Dataset in 90%-8%-2% (approx.) format.
+It consists of closely 1200 real and fake images, with uniform pixel dimensions of 300 x 300, divided into Train, Validation and Test Dataset in 90%-8%-2% (approx.) format.
 
 Real:
 
@@ -32,7 +30,7 @@ Fake:
 
 ## Evaluation
 
-The model has a general validation accuracy of 99% and validation loss of 0.03. 💪
+The model has a validation accuracy of 100% and validation loss of 0.01.
 
 Below is the graph of the accuracy and loss plotted against epochs (number of times the model is run).
 
